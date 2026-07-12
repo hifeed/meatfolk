@@ -1,7 +1,7 @@
 import { MapPin, Phone, Instagram } from "lucide-react";
 import { Badge } from "./ui/Badge";
 
-const WA_NUMBER = "628971304418";
+const WA_NUMBER = "6285286710316";
 const WA_LINK = `https://wa.me/${WA_NUMBER}?text=Halo%20Meatfolk,%20saya%20tertarik%20dengan%20produk%20dan%20ingin%20berdiskusi%20lebih%20lanjut`;
 
 const retailers = [
@@ -47,7 +47,7 @@ export function Contact() {
               className="flex items-center gap-2 hover:text-primary transition-colors"
             >
               <Phone size={20} className="text-outline flex-shrink-0" />
-              <span>0897-1304-418</span>
+              <span>0852-8671-0316</span>
             </a>
             <a
               href="https://instagram.com/meatfolk.id"

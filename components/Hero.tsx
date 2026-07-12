@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Badge } from "./ui/Badge";
 
-const WA_NUMBER = "628971304418";
+const WA_NUMBER = "6285286710316";
 const WA_LINK_BELANJA = `https://wa.me/${WA_NUMBER}?text=Halo%20Meatfolk,%20saya%20tertarik%20dengan%20produk%20daging%20Anda`;
 const WA_LINK_MITRA = `https://wa.me/${WA_NUMBER}?text=Halo%20Meatfolk,%20saya%20tertarik%20untuk%20menjadi%20mitra%20bisnis`;
 
@@ -11,7 +11,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           alt="Premium beef cuts on a wooden board"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoD63ZmDv8g_TZEQdCLZ37qweXK51RnEkRY6ZuUH2WYDHD2rc_pqufc0Z4gcQyHH1vAkA4xMotrbeTBBYwkjtiLCj8LCKuEcBe8De02ga98xs1lZd0xe_zyRMn7W9cnQBLHrSxDOaFKVGJQZo-I2UotGdrU--ysh4-wWWdFrIzJFFf2qiYqHsjTh_lhrfQ3wbWXsReV4b39aVsV_J-B2oSi7wKVJxHiuEub4ejus2P5yLY_c40aR-Wo4Fri-gSa7ZYv1kXiQRT28I"
+          src="/gambar header.png"
           fill
           className="object-cover opacity-90 mix-blend-multiply"
           priority

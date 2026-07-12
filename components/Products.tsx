@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { CheckCircle, Package, Snowflake, Scissors } from "lucide-react";
+import { Package, Snowflake, Scissors } from "lucide-react";
 
-const WA_NUMBER = "628971304418";
+const WA_NUMBER = "6285286710316";
 const WA_LINK = `https://wa.me/${WA_NUMBER}?text=Halo%20Meatfolk,%20saya%20tertarik%20dengan%20katalog%20B2B%20dan%20solusi%20supply%20chain%20daging%20premium`;
 
 const features = [
@@ -31,9 +31,9 @@ export function Products() {
             <div className="absolute -inset-4 bg-surface-container-low rounded-[2rem] transform -rotate-3 z-0" />
             <Image
               alt="Premium packaged meat products for retail and HORECA"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcAYBVrf6gZXvnLh4dgaAQxGFR1kONPMVT_V7k04zFq7Du41LTgdZIlgpJwULNmhF3j0xMLbZ4liQ4LgWVpkCwSQKMnRB6esPuDnaqphQm3q_mK0idAgre3Y0AkfaDN5PzEnw6CgiF3JsQlWgZofyU9xIn25tSdrv1YhFWi69kYRj_dZdtS7I7V60BuPS4VQYnUaLiLyijG4h8KL9mFWOxb9OVB39aEr_dmrvrxX_KTqxnnvCWPlfYwwGRyfEAha72J_qT14LXhbU"
-              width={600}
-              height={400}
+              src="/hero-products.png"
+              width={1536}
+              height={1024}
               className="relative z-10 w-full h-auto rounded-2xl shadow-sm border border-outline-variant"
             />
           </div>

@@ -29,9 +29,6 @@ export function WhyUs() {
     >
       <div className="max-w-max-width mx-auto">
         <div className="text-center mb-10 md:mb-16">
-          <span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest mb-2 block">
-            Keunggulan Kami
-          </span>
           <h2 className="font-headline-lg text-headline-lg md:text-headline-lg text-on-background">
             Mengapa Kami Hadir:{" "}
             <br className="hidden md:block" />

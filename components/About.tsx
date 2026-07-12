@@ -32,8 +32,8 @@ export function About() {
         </div>
         <div className="relative rounded-2xl overflow-hidden shadow-sm border border-outline-variant aspect-[4/3]">
           <Image
-            alt="A clean, modern artisanal butchery interior with stainless steel counters, white subway tiles, and butchers in crisp white aprons carefully preparing premium cuts of meat"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs6eTHPAQPkMKAK9hTzD3N8k1gSQFLD2clupeNkES7NpIyv4hNe7jZ6aB09rlmuHb-MLPklrltwWo3V0mTbZWX9LZIY5ZRmhBGmWVdon_BJ6e1zZzmDm1_eZ-W8hklq1K007Rhnd2XEOhgCQsvWbpA4KmjjE5hErep94r2Jn8MS7AnwIQnN2UNHKvWHnqg88yvSLDcqIsl5naqAjPtfc2V8yoQRQHydmg0QMZEAZqJJZOyfPUrCn6Tr4oM1Fpj8gmg6YBbE4UKGFk"
+            alt="Our story from farm to family"
+            src="/Gambar story.png"
             fill
             className="object-cover"
           />
