@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Hanken_Grotesk, Manrope, JetBrains_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const hankenGrotesk = Hanken_Grotesk({
@@ -63,6 +64,20 @@ export default function RootLayout({
       lang="id"
       className={`${hankenGrotesk.variable} ${manrope.variable} ${jetbrainsMono.variable}`}
     >
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-CGGEZV2CFN"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-CGGEZV2CFN');
+          `}
+        </Script>
+      </head>
       <body className="font-body-md antialiased">{children}</body>
     </html>
   );
