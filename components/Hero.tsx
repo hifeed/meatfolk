@@ -1,9 +1,7 @@
 import Image from "next/image";
 import { Badge } from "./ui/Badge";
+import { CLUB_URL } from "@/lib/links";
 
-const WA_NUMBER = "6285286710316";
-const WA_LINK_BELANJA = `https://wa.me/${WA_NUMBER}?text=Halo%20Meatfolk,%20saya%20tertarik%20dengan%20produk%20daging%20Anda`;
-const WA_LINK_MITRA = `https://wa.me/${WA_NUMBER}?text=Halo%20Meatfolk,%20saya%20tertarik%20untuk%20menjadi%20mitra%20bisnis`;
 
 export function Hero() {
   return (
@@ -33,15 +31,15 @@ export function Hero() {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href={WA_LINK_BELANJA}
+              href={CLUB_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-primary-container text-on-primary rounded-full px-8 py-4 font-title-md text-base hover:bg-primary transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 inline-flex items-center justify-center"
+              className="bg-club text-on-club rounded-full px-8 py-4 font-title-md text-base hover:bg-club-hover transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 inline-flex items-center justify-center"
             >
-              Belanja Sekarang
+              ORDER
             </a>
             <a
-              href={WA_LINK_MITRA}
+              href={CLUB_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-transparent text-on-background border-2 border-outline rounded-full px-8 py-4 font-title-md text-base hover:bg-surface-container-high transition-all duration-300 inline-flex items-center justify-center"

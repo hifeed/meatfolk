@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { Package, Snowflake, Scissors } from "lucide-react";
+import { CLUB_URL } from "@/lib/links";
 
-const WA_NUMBER = "6285286710316";
-const WA_LINK = `https://wa.me/${WA_NUMBER}?text=Halo%20Meatfolk,%20saya%20tertarik%20dengan%20katalog%20B2B%20dan%20solusi%20supply%20chain%20daging%20premium`;
 
 const features = [
   {
@@ -61,7 +60,7 @@ export function Products() {
               ))}
             </ul>
             <a
-              href={WA_LINK}
+              href={CLUB_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-secondary-container text-on-secondary-container rounded-full px-8 py-4 font-title-md text-base hover:bg-secondary hover:text-on-secondary transition-colors duration-300 inline-flex items-center justify-center"

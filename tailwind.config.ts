@@ -57,6 +57,10 @@ const config: Config = {
         "on-tertiary-container": "#dfdddc",
         "on-secondary": "#ffffff",
         background: "#f9f9f7",
+        // Warna tombol ORDER (club.hifeed.co)
+        club: "#be1e2d",
+        "club-hover": "#98001b",
+        "on-club": "#ffffff",
       },
       borderRadius: {
         DEFAULT: "0.125rem",
