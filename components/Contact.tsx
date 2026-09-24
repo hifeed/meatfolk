@@ -1,8 +1,8 @@
 import { MapPin, Phone, Instagram } from "lucide-react";
 import { Badge } from "./ui/Badge";
+import { CLUB_URL } from "@/lib/links";
 
 const WA_NUMBER = "6285286710316";
-const WA_LINK = `https://wa.me/${WA_NUMBER}?text=Halo%20Meatfolk,%20saya%20tertarik%20dengan%20produk%20dan%20ingin%20berdiskusi%20lebih%20lanjut`;
 
 const retailers = [
   "Borma Toserba Setiabudi",
@@ -27,12 +27,12 @@ export function Contact() {
           </p>
           <div className="flex items-center gap-4 mb-8">
             <a
-              href={WA_LINK}
+              href={CLUB_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-primary-container text-on-primary rounded-full px-8 py-4 font-title-md text-base hover:bg-primary transition-colors duration-300 inline-flex items-center justify-center"
+              className="bg-club text-on-club rounded-full px-8 py-4 font-title-md text-base hover:bg-club-hover transition-colors duration-300 inline-flex items-center justify-center"
             >
-              Hubungi Kami
+              ORDER
             </a>
           </div>
           <div className="space-y-3 font-body-md text-body-md text-on-surface-variant">
