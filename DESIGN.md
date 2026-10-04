@@ -146,7 +146,7 @@ The shape language is **Soft (0.25rem)**. This subtle rounding provides a profes
 - **Product Image Containers:** Can utilize a slightly larger `rounded-lg` (8px) to soften the impact of high-contrast photography.
 - **Badges/Chips:** Use a full pill-shape to distinguish them from actionable buttons.
 
-## Components
+## Components 
 
 ### Buttons
 - **Primary:** Solid Red (#BE1E2D) with white Hanken Grotesk Bold text. High-contrast and immediate.
